@@ -291,8 +291,7 @@ img {
   background-color: #f4f4fd;
   padding: 120px 0;
 }
-.team-title-container {
-}
+
 .team-title {
   color: #2e2f42;
   text-align: center;
@@ -415,9 +414,6 @@ img {
   padding: 40px 32px;
   transform: translateY(100%);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.portfolio-card {
 }
 
 .portfolio-item:hover .portfolio-card-cover {
@@ -614,10 +610,6 @@ img {
   letter-spacing: 0.64px;
 }
 
-button:hover,
-button:focus {
-}
-
 .subscribe-icon {
   fill: #ffffff;
   width: 24px;
@@ -640,11 +632,11 @@ button:focus {
   pointer-events: none;
 }
 
-/* .is-open {
+.is-open {
   opacity: 1;
   visibility: visible;
   pointer-events: auto;
-} */
+}
 /* }===============pvsybnb rjksh */
 
 .modal {
@@ -682,11 +674,6 @@ button:focus {
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.button-close-close {
-  fill: #2e2f42;
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
 .button-close:hover {
   background-color: #404bbf;
   border: none;
@@ -694,6 +681,10 @@ button:focus {
 .button-close:focus {
   background-color: #404bbf;
   border: none;
+}
+.button-close-close {
+  fill: #2e2f42;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .button-close-close:hover {
@@ -716,7 +707,7 @@ button:focus {
 }
 
 .modal-field {
-  margin-bottom: 8px;
+  margin-bottom: 16px;
 }
 
 .input-icon {
@@ -725,9 +716,8 @@ button:focus {
 .form-input {
   width: 100%;
   height: 40px;
-  background: var(--DAIRY, #fcfcfc);
+  background-color: transparent;
   padding-left: 38px;
-  padding: 8px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
   font-size: 16px;
@@ -767,24 +757,20 @@ button:focus {
 
 .inputs-button {
   display: block;
-  width: 105px;
   padding: 16px 32px;
-
+  min-width: 169px;
   border: none;
   border-radius: 4px;
   background-color: var(--IRIS, #4d5ae5);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   cursor: pointer;
   margin: 0 auto;
-}
-
-.span {
   color: #ffffff;
-  text-align: center;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.64px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-textarea {
@@ -793,8 +779,8 @@ button:focus {
   border-radius: 4px;
   border: 1px solid var(--NAVY-BLUE-modal, rgba(46, 47, 66, 0.4));
   outline: transparent;
-  padding-top: 8px;
-  padding-left: 16px;
+  background-color: transparent;
+  padding: 8px 16px;
   color: var(--NAVY-BLUE-modal, rgba(46, 47, 66, 0.4));
   font-size: 12px;
   line-height: 1.17;
@@ -803,14 +789,20 @@ button:focus {
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-. .modal-textarea:hover {
+.modal-textarea:hover {
+  border-color: #4d5ae5;
+}
+
+.modal-textarea:focus {
   border-color: #4d5ae5;
 }
 
 /* ========  */
 
 .form-check {
+  margin-bottom: 24px;
 }
+
 .check-text {
   color: var(--LIGHT-SLATE, #8e8f99);
   font-size: 12px;
@@ -831,6 +823,7 @@ button:focus {
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 2px;
   background-color: transparent;
+  fill: transparent;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1),
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);

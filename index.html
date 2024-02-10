@@ -449,7 +449,7 @@
 
     <!-- ============== Modal ============ -->
 
-    <div class="backdrop" is-open>
+    <!-- <div class="backdrop" is-open> -->
       <div class="modal">
         <button type="button" class="button-close">
           <svg class="button-close-close" width="8" height="8">
@@ -510,29 +510,26 @@
             ></textarea>
           </div>
 
-          <div class="modal-field">
-            <label for="user-privacy"></label>
+          <div class="form-check">
+           
             <input
               type="checkbox"
               name="user-privacy"
               id="user-privacy"
               value="true"
-              class="form-check visually-hidden"
+              class="form-check-input visually-hidden"
             />
-            <label for="policy" class="check-text">
-              <span class="check-policy">
-                <svg class="check-icon" width="16" height="16">
-                  <use href="./images/icons.svg#icon-property"></use>
-                </svg>
-              </span>
-              I accept the terms and conditions of the
-              <a href="" class="check-text-policy">Privacy Policy</a></label
-            >
+            <label for="user-privacy" class="check-text">
+            <span class="check-icon">
+              <svg class="check-text-icon" width="10" height="8">
+                <use href="./images/icons.svg#icon-property"></use>
+              </svg>
+            </span>
+            I accept the terms and conditions of the
+            <a href="">Privacy Policy</a></label>
           </div>
 
-          <button class="inputs-button" type="submit">
-            <span class="span">Send</span>
-          </button>
+          <button class="inputs-button" type="submit">Send</button>
         </form>
       </div>
     </div>
