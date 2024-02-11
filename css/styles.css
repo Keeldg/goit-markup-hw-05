@@ -679,10 +679,15 @@ img {
 }
 
 .button-close-close {
-  fill: #2e2f42;
+  /* fill: #2e2f42; */
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
+.button-close-close:focus {
+  fill: #ffffff;
+}
+.button-close-close:hover {
+  fill: #ffffff;
+}
 .button-close:hover {
   background-color: #404bbf;
   border: none;
