@@ -852,7 +852,7 @@ img {
   color: #4d5ae5;
 }
 
-.form-check:checked + .check-text span {
+.form-check-input:checked + .check-text span {
   background-color: #404bbf;
   border: none;
   fill: #f4f4fd;
