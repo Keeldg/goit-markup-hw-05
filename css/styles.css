@@ -692,7 +692,7 @@ img {
   fill: #ffffff;
 }
 
-. .button-close:focus {
+.button-close:focus {
   background-color: #404bbf;
   border: none;
 }
