@@ -606,11 +606,11 @@ img {
   cursor: pointer;
 }
 
-.subscribe-button-text {
+/* .subscribe-button-text {
   color: var(--WHITE, #ffffff);
   text-align: center;
   font-size: 16px;
-}
+} */
 
 .subscribe-icon {
   fill: #ffffff;
