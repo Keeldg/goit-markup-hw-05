@@ -577,7 +577,6 @@ img {
   background-color: transparent;
   border: 1px solid var(--WHITE, #ffffff);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-  margin-right: 24px;
   padding: 8px 212px 8px 16px;
 }
 
@@ -614,10 +613,6 @@ img {
 
 .subscribe-icon {
   fill: #ffffff;
-  font-weight: 500;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-  margin-left: 16px;
 }
 
 /* ======= Modal ======== */
@@ -702,7 +697,6 @@ img {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.32px;
-  margin-top: 24px;
   margin-bottom: 16px;
 }
 
